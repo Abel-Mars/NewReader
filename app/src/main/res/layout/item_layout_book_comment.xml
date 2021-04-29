@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingTop="10dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:id="@+id/item_book_comment_username"
+            android:textColor="#0048FF"
+            android:textSize="25sp"
+            android:text="用户名"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:id="@+id/item_book_comment_score"
+            android:textColor="#FF2323"
+            android:textSize="25sp"
+            android:text="9.0"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/item_book_comment_comment"
+        android:text="这是一本非常好看的小说，男主角有血有肉，女主角也非常有美丽，nice，特别好评。,强烈推荐大家可以看一下"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:id="@+id/item_book_comment_time"
+        android:text="2020-12-3 12:23:10"/>
+    <View
+        android:layout_width="match_parent"
+        android:background="#000000"
+        android:layout_height="1dp"/>
+</LinearLayout>
